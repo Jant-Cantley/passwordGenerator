@@ -18,7 +18,7 @@ body {
     margin: 0px 145px 60px 50px;
 }
 
-.generate-btn {
+#generate-btn {
     color: white;
     background-color: #4ADF86;
     width: fit-content;

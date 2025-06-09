@@ -7,11 +7,11 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 
-function generatePasswordOne() {
-    for ( i = 0; i < 15; i++) {
+generateBtn.addEventListener("click", function() {
+     for ( i = 0; i < 15; i++) {
         let passwordOne = Math.floor(Math.random() * characters.length)
         let passwordTwo = Math.floor(Math.random() * characters.length)
         firstPasswordEl.textContent += characters[passwordOne]
         secondPasswordEl.textContent += characters[passwordTwo]
-    }    
-}
+    }
+})
