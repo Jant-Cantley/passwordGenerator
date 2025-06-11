@@ -19,7 +19,7 @@ body {
 }
 
 #generate-btn {
-    color: white;
+    color: black;
     background-color: #4ADF86;
     width: fit-content;
     padding: 10px 20px;
@@ -55,3 +55,5 @@ span {
     border: 2px solid #273549;
     border-radius: 5px;
 }
+
+
